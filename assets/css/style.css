@@ -73,6 +73,31 @@ html, body {
 	height: 100%;
 }
 
+.films_block {
+	text-align: center;
+}
+
+.films_block img{
+	margin-bottom: 5%;
+	border-radius: 5px;
+	border: solid 5px black;
+	
+}
+
+.film_label {
+	padding: 2%;
+	margin-bottom: 4%;
+
+}
+
+.margin-8 {
+	margin-top: 8%;
+}
+
+.margin-8 a, a:hover{
+	color: #EE82EE;
+}
+
 footer {
 	color: #00FFFF;
 	background-color:  #222;
@@ -110,14 +135,5 @@ footer a:before {
   animation-delay: 5s;
 }
 
-@-webkit-keyframes blink6 {
- 10% { transform: scale(1, 1) rotate(80deg); }
- 20% { transform: scale(0, 0) rotate(160deg); }
- 100% { transform: scale(0, 0) rotate(0deg); }
-}
-@keyframes blink6 {
- 10% { transform: scale(1, 1) rotate(80deg); }
- 20% { transform: scale(0, 0) rotate(160deg); }
- 100% { transform: scale(0, 0) rotate(0deg); }
-}
+
 
