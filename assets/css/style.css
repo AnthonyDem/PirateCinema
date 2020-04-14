@@ -5,6 +5,7 @@
     animation: blink2 1s linear infinite;
 
 }
+
 	
 }
 
@@ -35,6 +36,7 @@
 
 .navbar-inverse {
 	padding: 1%;
+	border-radius: 0;
 }
 
 @media (max-width: 767px) {
@@ -94,8 +96,60 @@ html, body {
 	margin-top: 8%;
 }
 
-.margin-8 a, a:hover{
-	color: #EE82EE;
+.panel {
+	border: none;
+}
+
+.panel-body {
+	background-color: #f9f9f9; 
+
+}
+
+.panel-danger>.panel-heading {
+	background-color: #C0C0C0;
+	color: white;
+	border-color: transparent;
+}
+
+.sidebar-header {
+	font-size: 120%;
+	letter-spacing: 2px;
+
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+.input-lg {
+	font-size: 14px;
+}
+
+.list-group-item-warning {
+	color: #9370DB;
+	background-color: #f9f9f9;
+}
+
+.badge {
+	background-color: #000000;
+}
+
+.info-block{
+	text-align: center;
+	font-size: 120%;
+
+}
+
+.info-block .badge {
+	font-size: 80%;
+}
+
+.info-block span {
+	margin-right: 3%;
+}
+
+textarea.form-control {
+	height: 200px;
 }
 
 footer {
