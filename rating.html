@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Thony Cinema</title>
+    <title>Rating</title>
 
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -43,10 +43,10 @@
             </div>
             <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
               <ul class="nav nav-pills">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li ><a href="show.html">Movies</a></li>  
+                <li><a href="index.html">Home</a></li>
+                <li><a href="show.html">Movies</a></li>  
                 <li><a href="films.html">Serials</a></li>  
-                <li><a href="rating.html">Movie Rating</a></li>  
+                <li class="active"><a href="rating.html">Movie Rating</a></li>  
                 <li><a href="contacts.html">Contacts</a></li>    
               </ul>
               
@@ -71,64 +71,72 @@
                           </div>
                         </div>
                </form>
+            <h1>Films Rating</h1>
+            <hr>
 
-            <h2>New Movies</h2>
-            <hr>
-            <div class="row">
-              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <img src="assets/img/inter.png" alt="interstellar">
-              <div class="film_label">Interstellar</div>
-              </div>
-              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <img src="assets/img/matrix.png" alt="matrix">
-              <div class="film_label">Matrix</div>
-              </div>
-              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <img src="assets/img/cloud.png" alt="cloud atlas">
-              <div class="film_label">Cloud Atlas</div>
-              </div>
-              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <img src="assets/img/max.png" alt="Guess movie">
-              <div class="film_label">Guess</div>
-              </div>
-              
-            </div>
-            <h2>New Serials</h2>
-            <hr>
-            <div class="row">
-              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <img src="assets/img/xfiles.png" alt="x files">
-              <div class="film_label">The X Files</div>
-              </div>
-              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <img src="assets/img/silicon.png" alt="silicon valley">
-              <div class="film_label">Silicon Valley</div>
-              </div>
-              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <img src="assets/img/dead.png" alt="walking dead">
-              <div class="film_label">Walking Dead</div>
-              </div>
-              <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                <img src="assets/img/breakingbad.png" alt="breaking bad">
-              <div class="film_label">Breaking Bad</div>
-              </div>
-              
-            </div>
-            <div class="margin-8"></div>
-              <a href="#">
-                <h3>As filmed interstellar</h3>
-                <hr>
-                <p>Christopher Nolan, one of the most successful filmmakers of our time, whose work is equally loved by both demanding critics and ordinary spectators, turned 45 years old. The film was originally made by Paramount. When Christopher Nolan took over as director, Warner Bros. Studios, which released his latest films, got involved in the project.</p>
-                <a href="#" class="btn btn-info pull-right">To Read</a>
-             </a>
-            <div class="margin-8"></div>
-              <a href="#">
-                <h3>Actor Tom Hanks shared his impression of the festival</h3>
-                <hr>
-                <p>On February 16, the 67th British Academy Awards ceremony was held in London. Leonardo DiCaprio, Brad Pitt, Angelina Jolie, Cate Blanchett, Helen Mirren, Amy Adams, Christian Bale, Alfonso Cuaron and other guests and award winners are in our report.</p>
-                <a href="#" class="btn btn-info pull-right">To Read</a>
-                </a>
-            <div class="margin-8 clear"></div>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Film</th>
+                  <th class="text-center">Year</th>
+                  <th class="text-center">Rating</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2">
+                    <img class="img-responsive img-thumbnail" src="assets/img/inter.png" alt="Interstellar">
+                  </td>
+                  <td class="vert-align"><a href="show.html" >Interstellar</a></td>
+                  <td class="text-center vert-align">2015</td>
+                  <td class="text-center vert-align"><span class="badge">8.1</span></td>
+                </tr>
+
+                 <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2">
+                    <img class="img-responsive img-thumbnail" src="assets/img/matrix.png" alt="Matrix">
+                  </td>
+                  <td class="vert-align"><a href="#" >Matrix</a></td>
+                  <td class="text-center vert-align">1999</td>
+                  <td class="text-center vert-align"><span class="badge">8.0</span></td>
+                </tr>
+
+                 <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2">
+                    <img class="img-responsive img-thumbnail" src="assets/img/dead.png" alt="Walking dead">
+                  </td>
+                  <td class="vert-align"><a href="#" >Walking Dead</a></td>
+                  <td class="text-center vert-align">2009</td>
+                  <td class="text-center vert-align"><span class="badge">9.1</span></td>
+                </tr>
+
+                 <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2">
+                    <img class="img-responsive img-thumbnail" src="assets/img/silicon.png" alt="Silicon Valley">
+                  </td>
+                  <td class="vert-align"><a href="#" >Silicon Valley</a></td>
+                  <td class="text-center vert-align">2012</td>
+                  <td class="text-center vert-align"><span class="badge">9.9</span></td>
+                </tr>
+
+                 <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2">
+                    <img class="img-responsive img-thumbnail" src="assets/img/breakingbad.png" alt="Breaking Bad">
+                  </td>
+                  <td class="vert-align"><a href="#" >Breaking Bad</a></td>
+                  <td class="text-center vert-align">2014</td>
+                  <td class="text-center vert-align"><span class="badge">10</span></td>
+                </tr>
+              </tbody>
+
+
+            </table>
+
+            
+          
+          <div class="margin-8"></div>
+
           </div>
 
           <div class="col-lg-3 col-lg-pull-9">
